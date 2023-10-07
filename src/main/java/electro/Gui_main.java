@@ -11,6 +11,7 @@ import javax.swing.JTextField;
 
 public class Gui_main {
 	//tmp
+	//valentine commit
 	private JComboBox<String> combo_tarif;
 	private JLabel labelTarif1 = new JLabel("������� ��� ������:");
 	private JLabel labelTarif2d = new JLabel("������� ������ �������������� ����:");
