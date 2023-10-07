@@ -10,11 +10,11 @@ public class WallMaterial extends Material {
 		this.lifetime = lifetime;
 	}
 	
-	public int getlifetime(){
+	public int getlifetime() {
 		return lifetime; 
 	}
 	
-	public void setName(int lifetime){
+	public void setName(int lifetime) {
 		this.lifetime = lifetime; 
 	}
 }

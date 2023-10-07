@@ -21,23 +21,23 @@ public abstract class Material {
 		this.price = price;
 	}
 	
-	public String getName(){
+	public String getName() {
 		return name; 
 	}
 	
-	public void setName(String name){
+	public void setName(String name) {
 		this.name = name; 
 	}
 	
-	public int getId(){
+	public int getId() {
 		return id; 
 	}
 
-	public int getPrice(){
+	public int getPrice() {
 		return price; 
 	}
 	
-	public void setName(int price){
+	public void setName(int price) {
 		this.price = price; 
 	}
 }

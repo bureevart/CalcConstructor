@@ -10,11 +10,11 @@ public class RoofMaterial extends Material {
 		extendedColor = new Color(color);
 	}
 	
-	public Color getExtendedColor(){
+	public Color getExtendedColor() {
 		return extendedColor; 
 	}
 	
-	public void setExtendedColor(Color extendedColor){
+	public void setExtendedColor(Color extendedColor) {
 		this.extendedColor = extendedColor; 
 	}
 }
