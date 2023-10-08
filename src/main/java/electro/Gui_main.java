@@ -12,8 +12,6 @@ import javax.swing.DefaultComboBoxModel;
 import java.awt.Color;
 
 public class Gui_main {
-	//tmp
-	//valentine commit
 	private JComboBox<String> wallsComboBox;
 	private JLabel labelTarif1 = new JLabel("111:");
 	private JLabel labelTarif2d = new JLabel("222:");
@@ -30,11 +28,11 @@ public class Gui_main {
 	private JTextField textField;
 	private JTextField textField_1;
 	private JTextField textField_2;
-	public Gui_main(String name, String label) {
-		main_GUI = new JFrame("Electro");
+	
+	public Gui_main() {
+		main_GUI = new JFrame("CalcConstructor");
 		main_GUI.setBackground(new Color(255, 255, 224));
-		main_GUI.setTitle ("");
-		main_GUI.setBounds(500,400,704,388);
+		main_GUI.setBounds(500,400,700,400);
 		main_GUI.setResizable(false); 
 		
 		main_panel = new JPanel();
@@ -44,12 +42,12 @@ public class Gui_main {
 		
 		
 		wallsComboBox = new JComboBox<String>(transfer);
-		wallsComboBox.setModel(new DefaultComboBoxModel(new String[] {"Кирпич", "Брус", "Шлакоблок"}));
+		wallsComboBox.setModel(new DefaultComboBoxModel(BaseData.WallMaterials));
 		wallsComboBox.setBounds(184,85,150,30);
 		main_panel.add(wallsComboBox);
 		
 		JComboBox<String> roofsComboBox = new JComboBox();
-		roofsComboBox.setModel(new DefaultComboBoxModel(new String[] {"Кирпич", "Брус", "Шлакоблок"}));
+		roofsComboBox.setModel(new DefaultComboBoxModel(BaseData.RoofMaterials));
 		roofsComboBox.setBounds(529, 85, 150, 30);
 		main_panel.add(roofsComboBox);;
 		

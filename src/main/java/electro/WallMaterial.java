@@ -5,7 +5,7 @@ import java.awt.Color;
 public class WallMaterial extends Material {
 	private int lifetime;
 	
-	public WallMaterial(String name,int id,int price, int lifetime) {
+	public WallMaterial(int id, String name, int price, int lifetime) {
 		super(name, id, price);
 		this.lifetime = lifetime;
 	}

@@ -5,10 +5,6 @@ package electro;
 
 import java.awt.Color;
 
-// TODO: Auto-generated Javadoc
-/**
- * The Class Calc.
- */
 public abstract class Material {
 	
 	protected String name;
@@ -40,4 +36,12 @@ public abstract class Material {
 	public void setName(int price) {
 		this.price = price; 
 	}
+	
+	/*
+	 * To show name in combobox
+	 */
+	@Override
+    public String toString() {
+        return this.name;
+    }
 }
