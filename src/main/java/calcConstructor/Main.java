@@ -1,4 +1,4 @@
-package electro;
+package calcConstructor;
 
 public class Main {
 	
