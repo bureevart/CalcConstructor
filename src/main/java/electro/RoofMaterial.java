@@ -5,7 +5,7 @@ import java.awt.Color;
 public class RoofMaterial extends Material {
 	private Color extendedColor;
 	
-	public RoofMaterial(int id, String name, int price, int color) {
+	public RoofMaterial(int id, String name, int price, int color) throws Exception {
 		super(name, id, price);
 		extendedColor = new Color(color);
 	}

@@ -2,11 +2,19 @@ package electro;
 
 public class Main {
 	
-	protected static  Gui_main gui;
-	public static void main(String[] args) {
-		BaseData.seedData();
+	protected static  MainView gui;
+	public static void main(String[] args) throws Exception {
 		
-		gui = new Gui_main();
+		try {
+			BaseData.seedData();
+		
+			gui = new MainView();
+			
+			gui.showView();
+		}
+		catch(Exception ex) {
+			System.out.println(ex);
+		}
 	}
 
 }
