@@ -27,7 +27,7 @@
         <outputDirectory>${basedir}/App</outputDirectory>
           <archive>
             <manifest>
-              <mainClass>electro.Main</mainClass>
+              <mainClass>CalcConstructor.Main</mainClass>
             </manifest>
           </archive>
         </configuration>
