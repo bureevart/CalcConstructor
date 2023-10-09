@@ -29,7 +29,7 @@
         <outputDirectory>${basedir}/App</outputDirectory>
           <archive>
             <manifest>
-              <mainClass>CalcConstructor.Main</mainClass>
+              <mainClass>calcConstructor.Main</mainClass>
             </manifest>
           </archive>
         </configuration>
