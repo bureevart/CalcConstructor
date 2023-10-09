@@ -5,7 +5,7 @@ import javax.swing.JTextField;
 public class CustomTextfield extends JTextField {
 	
 	public int getValidatedInteger() throws Exception {
-		var text = this.getText();
+		String text = this.getText();
 		int intVal = -1;
 		try {
 			intVal = Integer.parseInt(text);

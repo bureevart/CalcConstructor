@@ -4,12 +4,12 @@ public class CalculateController implements IController {
 
 	@Override
 	public long calculate(int wallMaterialSquare, int roofMaterialSquare, int floorCount, RoofMaterial roofMaterial, WallMaterial wallMaterial) {
-		var isValid = validate(wallMaterialSquare, roofMaterialSquare, floorCount);
+		Boolean isValid = validate(wallMaterialSquare, roofMaterialSquare, floorCount);
 		
 		if(!isValid)
 			return -1;
 		
-		var result = wallMaterialSquare * wallMaterial.getPrice() * floorCount + roofMaterialSquare * roofMaterial.getPrice();
+		int result = wallMaterialSquare * wallMaterial.getPrice() * floorCount + roofMaterialSquare * roofMaterial.getPrice();
 		
 		if(result < 0)
 			return -1;

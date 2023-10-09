@@ -136,7 +136,7 @@ public class MainView {
 			floorCount = roofCountField.getValidatedInteger();
 
 		
-			var result = calculateController.calculate(wallSquare, roofSquare, floorCount, (RoofMaterial)roofsComboBox.getSelectedItem(), (WallMaterial)wallsComboBox.getSelectedItem());
+			long result = calculateController.calculate(wallSquare, roofSquare, floorCount, (RoofMaterial)roofsComboBox.getSelectedItem(), (WallMaterial)wallsComboBox.getSelectedItem());
 		 
 		 	if(result != -1)
 		 		JOptionPane.showMessageDialog(mainFrame.getContentPane(), "Результат равен: " + result);
