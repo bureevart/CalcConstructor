@@ -24,7 +24,7 @@
       <archive>
         <manifest>
           <addClasspath>true</addClasspath>
-          <mainClass>org.foo.App</mainClass>
+          <mainClass>calcConstructor.Main</mainClass>
         </manifest>
       </archive>
     </configuration>
