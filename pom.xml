@@ -25,12 +25,13 @@
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-jar-plugin</artifactId>
     <configuration>
-      <archive>
-        <manifest>
-          <addClasspath>true</addClasspath>
-          <mainClass>calcConstructor.Main</mainClass>
-        </manifest>
-      </archive>
+        <goal>jar</goal>
+        <outputDirectory>${basedir}/App</outputDirectory>
+          <archive>
+            <manifest>
+              <mainClass>calcConstructor.Main</mainClass>
+            </manifest>
+          </archive>
     </configuration>
   </plugin>
   <plugin>
