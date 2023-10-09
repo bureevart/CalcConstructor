@@ -8,6 +8,12 @@
  
  <build>
  <pluginManagement>
+ <plugin>
+  <groupId>com.github.ferstl</groupId>
+  <artifactId>depgraph-maven-plugin</artifactId>
+  <version>2.0.0</version>
+</plugin>
+   
  <plugins> 
   <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
