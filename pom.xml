@@ -31,7 +31,7 @@
         <outputDirectory>${basedir}/App</outputDirectory>
           <archive>
             <manifest>
-              <mainClass>СalcConstructor.Main</mainClass>
+              <mainClass>сalcConstructor.Main</mainClass>
             </manifest>
           </archive>
     </configuration>
