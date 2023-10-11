@@ -2,9 +2,9 @@ package calcConstructor;
 
 import javax.swing.JOptionPane;
 
-public class ExitController {
+public class ExitDialog {
 	
-	public ExitController(String exitHat, String exitLow) {
+	public ExitDialog(String exitHat, String exitLow) {
 		int exit = JOptionPane.showConfirmDialog(null,
 	            exitHat,
 	            exitLow,

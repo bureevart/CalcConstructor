@@ -10,7 +10,7 @@ public class ExitListener implements ActionListener {
 		String exitHat = "Вы уверены что хотите выйти?";
 		String exitLow = "Выход из программы";
 		
-		new ExitController(exitHat, exitLow);
+		new ExitDialog(exitHat, exitLow);
 	}
 
 }
