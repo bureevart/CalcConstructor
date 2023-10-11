@@ -22,6 +22,7 @@ public class MainView {
 	private CustomTextfield roofSquareField;
 	private IController calculateController;
 	private JComboBox<String> wallsComboBox;
+	private JComboBox<String> roofsComboBox;
 	private JButton calculateButton;
 	private JButton exitButton;
 	private JLabel infoLabel;
@@ -31,8 +32,6 @@ public class MainView {
 	private JLabel wallSquareLabel;
 	private JLabel floorCountLabel;
 	private JLabel roofSquareLabel;
-	
-	JComboBox<String> roofsComboBox;
 	
 	public MainView() {
 		calculateController = new CalculateController();
