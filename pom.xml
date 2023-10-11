@@ -29,7 +29,7 @@
     <artifactId>maven-jar-plugin</artifactId>
     <configuration>
         <goal>jar</goal>
-        <outputDirectory>${project.basedir}/src/App</outputDirectory>
+        <outputDirectory>${basedir}/App</outputDirectory>
           <archive>
             <manifest>
               <mainClass>calcConstructor.Main</mainClass>
