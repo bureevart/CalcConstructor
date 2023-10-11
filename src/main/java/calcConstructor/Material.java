@@ -1,6 +1,3 @@
-/*
- * 
- */
 package calcConstructor;
 
 import java.awt.Color;

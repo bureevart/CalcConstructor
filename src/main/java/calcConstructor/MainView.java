@@ -20,7 +20,7 @@ public class MainView {
 	private CustomTextfield wallSquareField;
 	private CustomTextfield roofCountField;
 	private CustomTextfield roofSquareField;
-	private CalculateController calculateController;
+	private IController calculateController;
 	private JComboBox<String> wallsComboBox;
 	private JButton calculateButton;
 	private JButton exitButton;
